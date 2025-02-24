@@ -1,0 +1,7 @@
+-r requirements.txt
+pytest>=6.2.5
+black>=21.5b2
+flake8>=3.9.2
+isort>=5.9.1
+moto>=2.0.0  # For mocking AWS services in tests
+pytest-cov>=2.12.0
